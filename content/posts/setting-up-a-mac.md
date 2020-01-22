@@ -2,10 +2,10 @@
 author = "Tim Roberts"
 categories = ["mac", "computers", "development"]
 description = "I decided to use my old Mac as a personal SSH connecting machine and for light local development. Here's the steps I took so I can do it again if I ever have to"
-linktitle = ""
+linktitle = "Link Title"
 featured = ""
-featuredpath = ""
-featuredalt = ""
+featuredpath = "img/okr.jpg"
+featuredalt = "Setting Up a Macbook"
 type = "posts"
 title = "Setting Up a Mac"
 date = 2020-01-22T13:04:56-05:00
