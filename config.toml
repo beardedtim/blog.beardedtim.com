@@ -75,7 +75,7 @@ copyright = "2020 - Present Tim Roberts"
 
   # paragraph = ""
 
-  about     = "Director of Technology @ <a href='https://www.gobigwheel.com/' target='_blank'>bigwheel</a>; views my own"
+  about     = "I talk alot, sometimes about code things; views my own"
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
