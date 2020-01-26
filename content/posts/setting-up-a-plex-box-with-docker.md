@@ -2,12 +2,12 @@
 author = "Tim Roberts"
 categories = ["docker", "programming", "home lab", "home server", "plex"]
 description = "I want to own my data. Downloading instead of streaming is a start. This is how I set up a Plex server using NordVPN, Transmission, and Docker"
-linktitle = ""
+linktitle = "Setting Up a Plex Media Server with Docker, OpenVPN, and Transmission"
 featured = ""
-featuredpath = ""
-featuredalt = ""
+featuredpath = "img/plex-logo.png"
+featuredalt = "Plex Media Server"
 type = "post"
-title = "Setting Up a Plex Box With Docker"
+title = "Setting Up a Plex Media Server with Docker, OpenVPN, and Transmission with RSS Feeds"
 date = 2020-01-25T19:13:18-05:00
 draft = false 
 +++
