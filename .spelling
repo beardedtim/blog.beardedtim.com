@@ -1,0 +1,31 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+2020
+OKRs
+okrs
+iterm
+3
+4
+Homebrew
+5
+zsh
+6
+7
+colors
+8
+nvm
+9
+plex
+NordVPN
+OpenVPN
+png
+yts
+showrss
+gif
+reusability
+_xp_
+color
+clojurescript

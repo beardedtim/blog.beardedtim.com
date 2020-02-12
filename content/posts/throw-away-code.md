@@ -31,9 +31,9 @@ It is the _**at the time**_ part that I want to focus on. Because no
 one has a way of looking into a crystal ball and seeing what will
 happen in the future, all we can do is gather information _now_ and
 make guesses about what will happen _later_. This realization is,
-I believe, centered around the emotions that started the Agile
+I believe, centred around the emotions that started the Agile
 movement. Put another way, the Agile movement, _whatever_ you want
-to call it, is a reaction to the fact that we cannot forsee the future 
+to call it, is a reaction to the fact that we cannot foresee the future 
 but still need a way to plan in it.
 
 The Agile movement had some proponents that created this idea of
@@ -80,7 +80,7 @@ or petabytes.
 
 Eventually, some way or how, what you _think_ is true will be proven
 to be wrong. Hell, even Newton was _kinda_ wrong about gravity. Fucking
-Netwon. Do we really think we understand our requirements better than
+Newton. Do we really think we understand our requirements better than
 _**fucking Newton**_ understood gravity? I am not going to go on record
 saying that. 
 
