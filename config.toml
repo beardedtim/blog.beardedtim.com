@@ -10,6 +10,10 @@ pluralizeListTitles = false
 enableRobotsTXT = true
 canonifyURLs = true
 copyright = "2020 - Present Tim Roberts"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 [params]
   # Sets the meta tag description
   description          = "Blog about technology, leadership, and just trying to be a dude in 2020"
