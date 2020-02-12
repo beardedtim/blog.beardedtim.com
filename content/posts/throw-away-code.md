@@ -33,8 +33,8 @@ happen in the future, all we can do is gather information _now_ and
 make guesses about what will happen _later_. This realization is,
 I believe, centred around the emotions that started the Agile
 movement. Put another way, the Agile movement, _whatever_ you want
-to call it, is a reaction to the fact that we cannot foresee the future 
-but still need a way to plan in it.
+to call it, is a reaction to the fact that we cannot foresee the 
+future but still need a way to plan in it.
 
 The Agile movement had some proponents that created this idea of
 _**eXtreme Programming**_, or _**XP**_. It tells us that trying to 
@@ -89,43 +89,63 @@ we should _embrace_ it. _Embrace_ that we will be wrong no matter how
 _right_ we are today. _Embrace_ that we will, one day sooner than
 later, realize how _silly_ our understanding was. 
 
-But what would this look like, in action? How could we ever build
-_anything_ of importance if we could keep going back, throwing away
-what we had done before, just because the grass is greener looking
-back? How can we build a foundation if we constantly keep going back
-and replacing its material or shape?
+The larger point I am trying to get at here is that there is no
+such thing as _correct_ in software. There is no such thing as _done_.
+All we have are half-baked attempts, usually done by someone that has
+long since left the company (_with only 18mo avg tenure, it's not 
+hard to be the last one holding the potato_), that _at the time_ were
+thought of as _correct_ or at least _good enough_.
 
-The same way we can change the shape or color of a Lego piece without
-the structure that it is supporting being disturbed. The same way that
-we can cut our hair off our head but still be the people that we are
-and react to and act in the world the same way we did before. Just
-because something _looks_ different doesn't mean _it is_ different.
-What do I mean?
+Most of our pain and misery in software development comes from when we
+learn that we are wrong but are unable to change, such as when you are
+given a "legacy" codebase and are told that it needs new requirements
+or that the old ones have bugs in them. If that code is not amenable to
+change, if you cannot easily and quickly iterate on that codebase, I
+at least get filled with dread, imposter syndrome, negative emotions
+and thoughts _because of my investment in my skills_. 
 
-It makes no difference to our computer if we talk to it in FORTRAN,
-C, or ClojureScript. It will follow our instructions exactly and do
-exactly what we told it to do. Furthermore, it doesn't matter _how_
-we told it to accomplish the goal, if the instructions are correct,
-it will accomplish the goal. For instance, if I wanted to tell
-my computer what `multiply` meant, I could say both of these
+I propose that _everything_ we write be able to be thrown away at times
+like this. When the next engineer comes along and the new management
+says that they need to fix some bugs or add features, I want them to
+be able to start fresh, without any of the baggage that my
+misunderstanding might have caused. I don't want them to have to
+decrypt what _I_ thought was truth when they think something different.
+I don't want them to have to spend hours if not days pouring over my
+code and notes _just_ to make a change. 
 
-```javascript
-const multiply = (x, y) => x * Y
-```
+We should, instead, _just start fresh_. The problems that we are
+solving _are not that hard_. We are putting buttons on a screen,
+we are munging some data from 1 or more data points, we are authorizing
+a request. _None_ of these things are rare, hard, or complex
+_by themselves_. Everything that we get paid to do, by and large, is
+already a solved problem. Someone on StackOverflow or some random
+tech blog _has already solved this problem_. Sure, they didn't solve
+it with K8s running on a cluster of Pis or with WizBangBoom running
+Widget OS on something yet to be created. But _that's not_ the problem
+that we are getting paid to solve. We are getting paid to fix a
+problem that our customers are facing. 
 
-or 
+The entire software industry is centred around solving problems
+for _humans_ but most of our job is spent solving problems _caused_
+by humans: CI is broken, Typescript is failing, we need to upgrade
+our dependencies. _None_ of that shit matters to the user that just
+wants to be able to get their emails on their tablet. We need to
+stop and think on how we can get rid of all the shit that _isn't_
+directly helping us build features for those users.
 
-```javascript
-const multiply (x, y) => {
-  let total = 0
-  for (let i = 0; i < y; i++) {
-    total += x
-  }
+Maybe we go back to PHP and Monolithic applications. Maybe we stop
+trying to ship 5mb of data to our users just so they can fill out
+a contact form. Maybe we stop using the web all togther. I don't
+pretend to know. I do, however, know that how we build software today
+is not going to work _tomorrow_. We need new ways of thinking, new
+paradigms for building, new ways of working together to _build shit_.
 
-  return total
-}
-```
+Regardless of _how_ we get there, I believe that _there_ looks like
+building software with Lego blocks, each one a small step away from
+being replaced with another one. Each small program we write will be
+able to be replaced at a whim, because that's what the "market" wants.
 
-They would both give me `4` when I fed in `2, 2` or give me
-`10` when I gave them `5, 2`, even though that I have told the
-computer to do _different_ things. 
+Throw your code away, stop putting shit onto shit, get a _complete_
+understanding of the problem space. Anything less than that and you are
+just passing the potatoe to the next shmuck that gets in your shoes,
+probably 18mos from now.
