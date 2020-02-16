@@ -135,7 +135,7 @@ directly helping us build features for those users.
 
 Maybe we go back to PHP and Monolithic applications. Maybe we stop
 trying to ship 5mb of data to our users just so they can fill out
-a contact form. Maybe we stop using the web all togther. I don't
+a contact form. Maybe we stop using the web all together. I don't
 pretend to know. I do, however, know that how we build software today
 is not going to work _tomorrow_. We need new ways of thinking, new
 paradigms for building, new ways of working together to _build shit_.
@@ -147,5 +147,5 @@ able to be replaced at a whim, because that's what the "market" wants.
 
 Throw your code away, stop putting shit onto shit, get a _complete_
 understanding of the problem space. Anything less than that and you are
-just passing the potatoe to the next shmuck that gets in your shoes,
+just passing the potato to the next shmuck that gets in your shoes,
 probably 18mos from now.
