@@ -1,0 +1,23 @@
+#!/bin/bash
+set -e;
+if [ "$1" == "" ]
+then
+  echo "You need to give me a name"
+  exit 1
+fi
+
+
+TEMPLATE_DIR="templates/post"
+MARKDOWN_TEMPLATE_PATH="$TEMPLATE_DIR/post.md"
+TS_HANDLER_TEMPLATE_PATH="$TEMPLATE_DIR/index.tsx"
+
+POST_DIR="src/pages/posts"
+POST_PATH="$POST_DIR/$1/post.md"
+COMPONENT_PATH="$POST_DIR/$1/index.tsx"
+
+mkdir "$POST_DIR/$1"
+
+sed "s/%%__SLUG__%%/$1/g" "$MARKDOWN_TEMPLATE_PATH" > $POST_PATH
+
+sed "s/%%__SLUG__%%/$1/g" "$TS_HANDLER_TEMPLATE_PATH" > $COMPONENT_PATH
+
